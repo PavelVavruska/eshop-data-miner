@@ -44,7 +44,7 @@ class EshopDataMiner(unittest.TestCase):
                 #
                 # TEST
                 table = driver.find_elements_by_css_selector(".sl2")
-                #elem_info = driver.find_elements_by_link_text(u"Detail , ceny a objednávání zde ...")
+
                 info_model = {'Značka': table.find_element_by_xpath(".//tr[1]/td[2]").text,
                               'Model': table.find_element_by_xpath(".//tr[2]/td[2]").text,
                               'Verze': table.find_element_by_xpath(".//tr[3]/td[2]").text,
@@ -54,10 +54,8 @@ class EshopDataMiner(unittest.TestCase):
                               'Motor': table.find_element_by_xpath(".//tr[7]/td[2]").text,
                               'Katalyzátor': table.find_element_by_xpath(".//tr[8]/td[2]").text,}
 
-
                 # uloží všechny odkazy na součásti
                 # urls = [x,y,z]
-
                 # prohlédne si všechny součásti a uloží si jejich data a cenu
 
     def tearDown(self):
