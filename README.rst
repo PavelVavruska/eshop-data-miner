@@ -2,4 +2,4 @@
 Eshop data miner
 ====================
 
-Sample of data-mining app for web interaction.
+Sample of data-mining app for Selenium web interaction.
