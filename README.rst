@@ -2,4 +2,4 @@
 Eshop data miner
 ====================
 
-Simple data-mining app for converting html -> CSV.
+Sample of data-mining app for web interaction.
